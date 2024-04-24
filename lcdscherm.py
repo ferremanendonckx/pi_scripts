@@ -2676,8 +2676,3 @@ test = [
 	0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xfc
 ]
 
-// Array of all bitmaps for convenience. (Total bytes used to store images in PROGMEM = 42736)
-const int epd_bitmap_allArray_LEN = 1;
-const unsigned char* epd_bitmap_allArray[1] = {
-	epd_bitmap_550x619
-};
